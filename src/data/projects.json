@@ -1,24 +1,24 @@
 [
   {
-    "title": "Project A",
+    "title": "Car Nest",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Car selling and buying app that is made to make the buying and selling process easier for for the users.",
+    "skills": ["HTML", "CSS", "PYTHON" , "FLASK", "DJANGO"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "R'Insight",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "A campus platform that enhances dormitory selection through dynamic mapping and comprehensive ratings.",
+    "skills": ["React", "Express", "Node", "MongoDB"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Sports Digest",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A sports data aggregator that provides refined search capabilities and detailed analysis of niche sports data.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"

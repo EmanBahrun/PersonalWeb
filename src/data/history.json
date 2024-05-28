@@ -1,29 +1,37 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "Software Engineer Intern",
+    "organisation": "General Dynamics Mission Systems",
+    "startDate": "June, 2023",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Developed Python automation tool for test case management.",
+      "Boosted operational efficiency by 50% with REST API integration.",
+      "Built AWS S3 data backup and transfer pipeline."
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/GD.jpg"
+  },
+  {
+    "role": "Break Through Tech Scholar",
+    "organisation": "Accenture",
+    "startDate": "August, 2023",
+    "endDate": "December, 2023",
+    "experiences": [
+      "Completed 10-week advanced Machine Learning training.",
+      "Analyzed 90,000+ cell towers for disaster planning with ML models.",
+      "Enhanced infrastructure resilience with retrofitting strategies."
+    ],
+    "imageSrc": "history/Accenture.jpg"
+  },
+  {
+    "role": "Computer Engineer Scholar",
+    "organisation": "NASA Community College Aerospace",
+    "startDate": "August, 2021",
+    "endDate": "September, 2021",
+    "experiences": [
+      "Assessed software/hardware for Moon mission frameworks.",
+      "Performed cost-benefit analysis for mission system optimizations."
+    ],
+    "imageSrc": "history/NASA.jpg"
   }
 ]

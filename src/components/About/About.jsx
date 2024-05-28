@@ -8,39 +8,38 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+      <a href="https://docs.google.com/document/d/13LY4jGdIG-GdHj7MViX8K1P-jJf0MgCyCa3U36o7w4Q/edit?usp=sharing">
+          <img
+            src={getImageUrl("about/resume.jpg")}
+            alt="Interactive Resume Icon"
+            className={styles.resumeIcon} 
+          />
+        </a>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3><b>Computer Science Student</b></h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+             I'm Eman Bahrun, a dedicated Senior Computer Science student at the University of California, Riverside. My academic journey has been marked by a deep passion for technology and a commitment to mastering a diverse set of programming skills. Proficient in Python, C, C++, Java, HTML, CSS, and JavaScript.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Aspiring Software Engineer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              I am an aspiring software engineer, deeply engaged in mastering the art of coding. My passion for technology drives my commitment to developing innovative software solutions. Through continuous learning and practical experience, I aim to make a significant impact in the tech world, pushing the boundaries of what's possible with modern software.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Hobbies</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I love watching and playing sports. My favorite sport is Soccer and I am an Arsenal fan. 
               </p>
             </div>
           </li>

@@ -6,3 +6,37 @@
   height: 100%;
   overflow: hidden;
 }
+/* Global styles file, e.g., App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.parallax-background {
+  /* The image used */
+  background-image: url('path_to_your_full_background_image.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.light {
+  --background-color: #fff;
+  --text-color: #333;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --background-color: #333;
+  --text-color: #fff;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
